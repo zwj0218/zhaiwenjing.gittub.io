@@ -1,0 +1,12 @@
+Linux命令
+一、登录与注销
+1)	sudo useradd lilei  //添加用户 (不能被立即使用，需设置密码 sudo passwd lilei)  
+2)	sudo adduser lilei  //添加用户
+3)	login  //登录或切换用户
+4)	logout //注销用户（命令行）  exit(shell-退出控制台)
+5)	shutdown -h 10  //10分钟后自动关机	shutdown -c  //取消
+6)	halt(root用户)  //关闭所有进程后自动关机
+7)	poweroff //同上
+8)	shutdown -r 10 //十分钟后自动重启
+9)	init 6  //重启 （0-停机，1-单用户，2-多用户，3-完全多用户，4-图形化，5-安全模式，6-重启）
+10)	reboot  //重启
